@@ -62,9 +62,14 @@ A web-based task management system for teams, built with PHP, MySQL, HTML, CSS, 
 ------chat box----
 <img width="1600" height="763" alt="image" src="https://github.com/user-attachments/assets/2c9df07f-bb28-4efd-bc7e-2ba6d6a0b3be" />
 
+---team members---
+sanika mane (github : sanikamane12)
 
+borate kiran(github : kiranborate)
 
+gaikwad vaishnavi(github: vaishnavibhaskargaikwad)
 
+jadhav akanksha(github: akankshabalajijadhav)
 
 
 
