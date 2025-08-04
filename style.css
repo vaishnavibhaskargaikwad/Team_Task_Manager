@@ -1,0 +1,41 @@
+.body {
+    background:#f8f9fa ;
+}
+.hero {
+    background: linear-gradient(135deg, #ebadbe, #1E1E2F);
+    color: white;
+    padding: 80px 0;
+}
+.card-body{
+    background-color: #e0e6e7;
+    display: inline-block;
+}
+.card {
+  width: 300px;
+  height: 200px;
+  margin-left: 70px;
+  margin-top: 5px;
+  background-color: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 
+    transform 0.4s ease, 
+    box-shadow 0.4s ease, 
+    border-color 0.4s ease, 
+    background-color 0.4s ease;
+}
+.card:hover {
+  transform: scale(1.05) rotate(1deg);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  border-color: #9c0a53;
+  background-color: #fef4f9;
+}
+.btn-custom {
+    background-color: #201f1f;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #b79999;
+}

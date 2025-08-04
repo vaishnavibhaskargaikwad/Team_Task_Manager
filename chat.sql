@@ -1,0 +1,14 @@
+USE task_manager;
+CREATE TABLE chat (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100) NOT NULL,
+    team VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE msg (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    team VARCHAR(100) NOT NULL,
+    username VARCHAR(100) NOT NULL,
+    message TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.login-box, .dashboard {
+    background: #fff;
+    padding: 20px;
+    margin: 80px auto;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 8px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+.error {
+    color: red;
+}
+
+.logout {
+    display: inline-block;
+    margin-top: 10px;
+    color: #dc3545;
+    text-decoration: none;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    background: #e9ecef;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
